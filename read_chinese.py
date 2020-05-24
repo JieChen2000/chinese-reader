@@ -36,6 +36,6 @@ if __name__ == '__main__':
     user_input = input()
     if user_input == 'y' or user_input == 'Y':
         text_file = open("input_not_commanded.txt", "w")
-        text_file.write(str(words_set_not_command))
+        text_file.write(''.join(words_set_not_command))
         print("Commanded words saved to ", text_file.name)
         text_file.close()
