@@ -29,7 +29,7 @@ if __name__ == '__main__':
     text_file = open("input_not_commanded.txt", "a")
 
     for i, val in enumerate(words_set):
-        print('word ', i, ':', val)   
+        print('word ', i, '/', len(words_set), ':', val)   
         user_input = input()
         # print(user_input)
         if user_input == 'n':
